@@ -1,7 +1,17 @@
 package handsomehao;
 
 public class test {
-public static void main(String[] args) {
-	System.out.println("«º´f¥´ªº");
+	public static void main(String[] args) {
+		System.out.println("ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½");
+		//çµ„é•·(æ–°å¢žçš„)
+		Math cMath = new Math();
+		System .out.println();
+		System.out.println(cMath.add(10,20));
+	}
 }
+
+class Math {
+	int add(int a, int b) {
+		return a + b;
+	}
 }
